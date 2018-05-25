@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+<style>
+
+      /* 1)TAG SELECTOR */
+
+body{ background-color: #333;
+  color: #fff;
+width: 360px;
+
+}
+p{ background-color: green;
+width: 100px;
+height: 100px;
+float: left;
+
+/*float = сдвигает всё в одну строку */
+
+margin: 10px;
+
+/* margin делает отступ между ячейками */
+}
+
+      /* 2) CLASS SELECTOR = объеденяет всё в одну группу, как в примере */
+
+.row{
+  background-color: brown;
+}
+
+.col{
+  border-radius: 50px;
+}
+
+/* 3) IDENTIFIER (ID) (# - используется как селектор индентификатора) */
+
+#first{
+  border-radius: 30px 0px 0px 30px;
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+<p id="first">1</p>
+<p class="col">2</p>
+<p>3</p>
+<p class="row">4</p>
+<p class="row col">5</p>
+
+<!-- class использовать через пробел, когда нужно указать несколько вариантов, показанно на примере вверху  -->
+
+<p class="row">6</p>
+<p>7</p>
+<p class="col">8</p>
+<p id="first">9</p>
+
+
+</body>
+</html>
