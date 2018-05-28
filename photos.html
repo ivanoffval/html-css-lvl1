@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photos</title>
+
+<style>
+
+.left {margin-left:50px; }
+
+body {
+  background-image: url(https://media.giphy.com/media/1Agdw2w4UKtgs/giphy.gif);
+}
+
+p  { height: 50px;
+text-align: center;
+}
+
+#first {
+  margin-top: 200px;
+}
+
+.left { margin-left:100px; }
+.right { margin-right: 100px;}
+
+img{
+  border: 20px solid red;
+  box-shadow: 0 0 5px 5px black;
+}
+
+#img-4 {
+transform: rotate(25deg);
+transition: 5s;
+}
+#img-4:hover
+{transform: rotate(500deg);
+
+/* Добавляет эффект для картинки */
+
+}
+
+#img-5 {
+transform: rotate(25deg);
+transition: 5s;
+}
+#img-5:hover
+{transform: rotate(500deg);
+
+</style>
+
+</head>
+<body>
+
+<p id="first">
+  <img class="right" src="https://www.w3schools.com/css/paris.jpg" alt="">
+  <img class="left" src="https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/icebridge_201705_arctic2.jpg" alt="">
+</p>
+<p>
+  <img src="https://user.oc-static.com/files/6001_7000/6410.jpg" alt="">
+</p>
+<p>
+  <img id="img-4" class="right" src="http://www.dwuser.com/education/content/creating-keyframe-animations-with-css3/images/preview.png" alt="">
+  <img id="img-5" class="left" src="http://www.te-ot-group.com/images/contact.jpg" alt="">
+</p>
+
+
+
+
+</body>
+</html>
