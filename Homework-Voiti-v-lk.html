@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+
+body{
+  background-color: #22abd7;
+}
+
+   div.daddy {margin-left:  500px;
+   margin-top: 200px;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 0 3px rgb(0, 0, 0), 
+                0 0 0 6px rgba(0, 0, 0, 0.363),
+                3px 0 0 6px rgba(8, 8, 8, 0.116);
+    background-color: rgb(252, 252, 252);
+   }
+
+   div.son{
+       margin-left: 630px;
+   }
+
+
+
+
+#f1{ margin-left: 50px; 
+    border-radius: 5px;
+box-shadow: rgb(235, 239, 241);
+ width: 400px;
+    height: 40px;
+    margin: center;
+}
+
+#h1 {margin: 5px; }
+
+input.button {
+    margin-left: 400px;
+    border-radius: 10px;
+    background-color: rgb(231, 241, 246);
+    width: 70px;
+    height: 30px;
+    box-shadow: 0 0 0 3px rgb(0, 0, 0), 
+                0 0 0 6px rgba(0, 0, 0, 0.363),
+                3px 0 0 6px rgba(8, 8, 8, 0.116);
+   }
+   
+.rotate:hover {
+  -webkit-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#H1 {
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: 0 0 15px #999;
+  color: transparent;
+  transition: all 1s;
+  }
+  #H1:hover {
+    text-shadow: 0 0 0 #333;
+    }
+
+
+
+</style>
+
+</head>
+<body>
+
+<div class="daddy">
+<form>
+    <div id="H1">
+    <h1 id="h1" align="center" >Войти в Личный Кабинет</h1>
+    <hr>
+    </div>
+        <p><input id="f1" type="text" placeholder="   Логин или E-Mail" autofocus required></p>
+       <p><input id="f1" type="password" placeholder="   Пароль" required></p>
+        <label>
+            <input type="checkbox" name="remember_me" > Запомнить меня
+        </label>
+        <div class="rotate">
+         <input class="button" type="submit" value="Войти" >
+        </div>
+</div>
+</form>
+
+<div class="son grow">
+   <p><a href="index.html">Забыли пароль?</a> Восстановите его! </p>
+</div>
+
+</body>
+</html>
